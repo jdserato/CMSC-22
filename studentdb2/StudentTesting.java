@@ -1,5 +1,7 @@
+package studentdb2;
+
 /*
-  Created by Albores, Allyssa; Serato, Jay Vince; Sotto, Wina Gen on 13 Oct 2016.
+  Created by Serato, Jay Vince on 13 Oct 2016.
  */
 
 import java.util.ArrayList;
