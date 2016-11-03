@@ -1,3 +1,5 @@
+package studentdb2;
+
 import java.io.Serializable;
 
 /**
