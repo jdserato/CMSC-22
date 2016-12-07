@@ -11,6 +11,7 @@ public class Rule30Tester {
     private static final int GEN_COLUMNS = GENERATION * 2;
 
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
         int[][] table = new int[GENERATION][GENERATION * 2];
         Rule30.getInstance(GENERATION);
         System.arraycopy(Rule30.table[0], 0, table[0], 0, Rule30.table[0].length - 1);
@@ -59,5 +60,6 @@ public class Rule30Tester {
             }
             System.out.println();
         }
+        System.out.println("time consumed in ms: " + (System.currentTimeMillis() - startTime));
     }
 }
